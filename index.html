@@ -7,10 +7,8 @@
     <meta name="author" content="">
 
     <title>Starter Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
-
-    <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
   </head>
 
@@ -38,29 +36,59 @@
     </nav>
 
     <main role="main" class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/download1.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/download2.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/download3.jfif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+          div class="starter-template">
+            <h1 class="bg-warning-custom text-white">Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+          </div>
 
-      <!-- columns -->
-      <div class="row">
-        <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
-        </div>
-        <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
-        </div>
-        <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
-        </div>
-      </div>
-      
-      <!-- Add another row here -->
+          <!-- columns -->
+          <div class="row">
+            <div class="col-sm">
+              <!-- add an image here -->
+              One of three columns
+            </div>
+            <div class="col-sm">
+              <!-- add an image here -->
+              One of three columns
+            </div>
+            <div class="col-sm">
+              <!-- add an image here -->
+              One of three columns
+            </div>
+          </div>
+
+          <!-- Add another row here -->
+          <div class="row">
+            <div class="col-6 col-sm-2 bg-warning text-white">
+              Column 1
+            </div>
+            <div class="col-6 col-sm-10 bg-danger text-dark">
+              Column 2
+            </div>
+          </div>
+
     </main><!-- /.container -->
 
     <!-- Bootstrap core JavaScript
